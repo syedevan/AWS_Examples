@@ -1,7 +1,8 @@
-
 {
   "name": "AWS Examples DevContainer",
-  "image": "gitpod/workspace-full:latest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
